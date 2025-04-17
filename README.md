@@ -45,7 +45,7 @@ docker build -t my-scraper-flask-app .
 Run with a custom URL (e.g., facebook.com):
 
 ```bash
-docker run -p 5000:5000 -e SCRAPE_URL="https://facebook.com" my-scraper-flask-app
+docker run -p 5000:5000 -e SCRAPE_URL="https://google.com" my-scraper-flask-app
 ```
 - You can set default url in scrape.js.
 ---
