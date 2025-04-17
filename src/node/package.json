@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "puppeteer": "^22.15.0"
+  },
+  "devDependencies": {
+    "@sparticuz/chromium": "^106.0.2"
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "scraper-flask-app"
+version = "0.1.0"
+description = "A scraper app with Flask serving scraped content"
+authors = ["Dipanshu Rawat"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+black = "^22.0"
