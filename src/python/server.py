@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 scrape_url = os.getenv("SCRAPE_URL", "https://fallback-url.com")
 print(f"Scraping from URL: {scrape_url}")
 
-# Scrape title dynamically
 def scrape_title(url):
     try:
         response = requests.get(url, timeout=5)
